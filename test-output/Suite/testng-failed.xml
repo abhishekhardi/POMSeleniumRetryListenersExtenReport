@@ -11,7 +11,6 @@
           <include name="launchApp"/>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="newbrowserwindowbtn"/>
           <include name="extentreportsetup"/>
           <include name="verifynewbrowserwindowtext"/>
         </methods>

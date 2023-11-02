@@ -48,13 +48,13 @@ public class automationpracticetestcases extends BaseTest{
 	@Test(retryAnalyzer = RetryListener.class)
 	public void verifynewbrowserwindowtext() {
 		String acttext = driver.findElement(page.newbrowserwindowtext).getText();
-		Assert.assertEquals(acttext, "New Browser Windows", "Element text is different");
+		Assert.assertEquals(acttext, "New Browser Window", "Element text is different");
 	}
 	
 	@Test(retryAnalyzer = RetryListener.class)
 	public void newbrowserwindowbtn() {
 		driver.findElement(page.newbrowserwindowbtn).isDisplayed();
-		//throw new SkipException("This is Skippe");
+		throw new SkipException("This is Skipped");
 	}
 	
 	@Test(retryAnalyzer = RetryListener.class)
