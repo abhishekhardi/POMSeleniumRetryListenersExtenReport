@@ -33,7 +33,7 @@ public class BaseTest {
 		driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("https://testautomationpractice.blogspot.com/");
-		driver.manage().window().maximize();
+	
 	}
 	
 	@BeforeTest

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="9" passed="8" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-02T16:04:01 IST" name="Suite" finished-at="2023-11-02T16:04:02 IST" duration-ms="1413">
+  <suite started-at="2023-11-02T16:13:28 IST" name="Suite" finished-at="2023-11-02T16:13:30 IST" duration-ms="1738">
     <groups>
     </groups>
-    <test started-at="2023-11-02T16:04:01 IST" name="Test" finished-at="2023-11-02T16:04:02 IST" duration-ms="1413">
+    <test started-at="2023-11-02T16:13:28 IST" name="Test" finished-at="2023-11-02T16:13:30 IST" duration-ms="1738">
       <class name="testcases.automationpracticetestcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:03:50 IST" name="setup" finished-at="2023-11-02T16:04:01 IST" duration-ms="10554" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:16 IST" name="setup" finished-at="2023-11-02T16:13:28 IST" duration-ms="11483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="extentreportsetup()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:01 IST" name="extentreportsetup" finished-at="2023-11-02T16:04:01 IST" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="extentreportsetup()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:28 IST" name="extentreportsetup" finished-at="2023-11-02T16:13:28 IST" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentreportsetup -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:01 IST" name="launchApp" finished-at="2023-11-02T16:04:01 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:28 IST" name="launchApp" finished-at="2023-11-02T16:13:28 IST" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="enteraddress()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:01 IST" name="enteraddress" finished-at="2023-11-02T16:04:01 IST" duration-ms="145" status="PASS">
+        <test-method signature="enteraddress()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:28 IST" name="enteraddress" finished-at="2023-11-02T16:13:28 IST" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enteraddress -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:01 IST" name="launchApp" finished-at="2023-11-02T16:04:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:28 IST" name="launchApp" finished-at="2023-11-02T16:13:28 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="enteremail()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:01 IST" name="enteremail" finished-at="2023-11-02T16:04:01 IST" duration-ms="100" status="PASS">
+        <test-method signature="enteremail()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:28 IST" name="enteremail" finished-at="2023-11-02T16:13:29 IST" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enteremail -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:01 IST" name="launchApp" finished-at="2023-11-02T16:04:01 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="launchApp" finished-at="2023-11-02T16:13:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,22 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="enterphone()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:01 IST" name="enterphone" finished-at="2023-11-02T16:04:01 IST" duration-ms="91" status="PASS">
+        <test-method signature="enterphone()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="enterphone" finished-at="2023-11-02T16:13:29 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterphone -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:01 IST" name="launchApp" finished-at="2023-11-02T16:04:01 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.automationpracticetestcases.newbrowserwindowbtn()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="newbrowserwindowbtn()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:01 IST" name="newbrowserwindowbtn" finished-at="2023-11-02T16:04:02 IST" duration-ms="62" status="SKIP">
+        <test-method signature="newbrowserwindowbtn()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="newbrowserwindowbtn" finished-at="2023-11-02T16:13:29 IST" duration-ms="98" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[This is Skipped]]>
@@ -117,11 +106,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newbrowserwindowbtn -->
-        <test-method signature="selectgender()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="selectgender" finished-at="2023-11-02T16:04:02 IST" duration-ms="403" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="launchApp" finished-at="2023-11-02T16:13:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.automationpracticetestcases.newbrowserwindowbtn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="selectgender()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="selectgender" finished-at="2023-11-02T16:13:29 IST" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectgender -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="launchApp" finished-at="2023-11-02T16:04:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="launchApp" finished-at="2023-11-02T16:13:29 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,7 +132,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="launchApp" finished-at="2023-11-02T16:04:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="launchApp" finished-at="2023-11-02T16:13:29 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,11 +143,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="selectmonday()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="selectmonday" finished-at="2023-11-02T16:04:02 IST" duration-ms="72" status="PASS">
+        <test-method signature="selectmonday()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="selectmonday" finished-at="2023-11-02T16:13:29 IST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectmonday -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="launchApp" finished-at="2023-11-02T16:04:02 IST" duration-ms="0" status="PASS">
+        <test-method signature="selectsunday()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="selectsunday" finished-at="2023-11-02T16:13:29 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectsunday -->
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="launchApp" finished-at="2023-11-02T16:13:29 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,11 +162,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="selectsunday()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="selectsunday" finished-at="2023-11-02T16:04:02 IST" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectsunday -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="launchApp" finished-at="2023-11-02T16:04:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="launchApp" finished-at="2023-11-02T16:13:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,11 +173,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifynewbrowserwindowtext()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="verifynewbrowserwindowtext" finished-at="2023-11-02T16:04:02 IST" duration-ms="36" status="PASS">
+        <test-method signature="verifynewbrowserwindowtext()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:29 IST" name="verifynewbrowserwindowtext" finished-at="2023-11-02T16:13:30 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifynewbrowserwindowtext -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="launchApp" finished-at="2023-11-02T16:04:02 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifypage()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:30 IST" name="verifypage" finished-at="2023-11-02T16:13:30 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypage -->
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:30 IST" name="launchApp" finished-at="2023-11-02T16:13:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,11 +192,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifypage()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="verifypage" finished-at="2023-11-02T16:04:02 IST" duration-ms="122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifypage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:04:02 IST" name="teardown" finished-at="2023-11-02T16:04:03 IST" duration-ms="799" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.automationpracticetestcases@11d8ae8b]" started-at="2023-11-02T16:13:30 IST" name="teardown" finished-at="2023-11-02T16:13:31 IST" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

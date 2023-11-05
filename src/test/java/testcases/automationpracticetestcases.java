@@ -66,4 +66,5 @@ public class automationpracticetestcases extends BaseTest{
 	public void selectmonday() {
 		driver.findElement(page.monday).click();
 	}
+	
 }
