@@ -45,9 +45,18 @@ public class automationpracticepage {
 	
 	
 
+	//Datepicker
+	public By datepicker = By.xpath("//input[@id='datepicker']");
+	public By Next = By.xpath("//span[contains(text(),'Next')]");
+	public By Prev = By.xpath("//span[contains(text(),'Prev')]");
+	public By Year = By.xpath("//span[@class='ui-datepicker-year']");
+	public By Mon = By.xpath("//span[@class='ui-datepicker-month']");
 	
 	
-
+	
+	
+	
+	
 	
 	
 	
