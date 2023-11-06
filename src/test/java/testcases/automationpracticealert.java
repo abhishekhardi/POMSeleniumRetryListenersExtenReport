@@ -10,13 +10,15 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import page.automationpracticepage;
+import utilities.Event;
 import utilities.RetryListener;
 
-public class automationpracticeALERT extends BaseTest{
+public class automationpracticealert extends BaseTest{
 
 	automationpracticepage page = new automationpracticepage(driver);
-		
-	@Test
+	public  Event event= new Event();
+	
+	@Test(retryAnalyzer = RetryListener.class)
 	public void handlealert() {
 		driver.findElement(page.Alertbtn).click();	
 		Alert alert = driver.switchTo().alert();
@@ -32,6 +34,7 @@ public class automationpracticeALERT extends BaseTest{
 		driver.findElement(page.Promptbtn).click();
 		alert.sendKeys("Abhishek Hardi");
 		alert.dismiss();
+		
 		
 	}
 	

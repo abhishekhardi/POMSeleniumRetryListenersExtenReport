@@ -7,7 +7,7 @@ import testcases.BaseTest;
 
 public class automationpracticepage {
 
-	WebDriver driver;
+	public static WebDriver driver;
 		
 	public automationpracticepage(WebDriver driver) {
 		this.driver = driver;

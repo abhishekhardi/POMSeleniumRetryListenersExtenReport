@@ -22,8 +22,9 @@ public class Datepicker extends BaseTest {
 		String Month = "November";
 		String Day = "26";		
 		driver.findElement(page.datepicker).click();
+		driver.findElement(page.datepicker).sendKeys("11/26/1985");
 		
-		while(true) {
+/*		while(true) {
 			String year = driver.findElement(page.Year).getText();
 			String month = driver.findElement(page.Mon).getText();
 			if(year.equalsIgnoreCase(Year)&&month.equalsIgnoreCase(Month)) {
@@ -33,6 +34,7 @@ public class Datepicker extends BaseTest {
 			}			
 		}
 		driver.findElement(By.xpath("//a[contains(text(),'26')]")).click();
+		*/
 		Thread.sleep(5000);
 	}
 

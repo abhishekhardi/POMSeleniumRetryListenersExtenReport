@@ -21,23 +21,11 @@ public class BaseTest {
 	protected ExtentSparkReporter spark = new ExtentSparkReporter("report.html");
 	public static ExtentTest test;
 	
-	WebDriver driver;
+	public static WebDriver driver;
 	
 	@SuppressWarnings("deprecation")
 	@BeforeSuite
 	public void setup() {
-		WebDriverManager.chromedriver().setup();
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--disable-site-isolation-trials");
-		options.addArguments("--start-maximized");
-		driver = new ChromeDriver(options);
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.get("https://testautomationpractice.blogspot.com/");
-	
-	}
-	
-	@BeforeTest
-	public void extentreportsetup() {
 		spark.config().setTheme(Theme.DARK);
 		spark.config().setDocumentTitle("DocumentTitle");
 		spark.config().setReportName("ReportName");
@@ -48,17 +36,47 @@ public class BaseTest {
 		reports.setSystemInfo("URL", "https://testautomationpractice.blogspot.com/");
 		reports.setSystemInfo("Environment", "QA");
 		reports.attachReporter(spark);
+	}
+	
+	@BeforeTest
+	public void extentreportsetup() {
+		
 		}
 	
-	@BeforeMethod()
+
+	
+	@BeforeMethod
 	public void launchApp(Method testmethod) {
 		test = reports.createTest(testmethod.getName());
 	}
 	
-	@AfterSuite
-	public void teardown() {
+	@BeforeClass
+	public void beforeclass() {
+		WebDriverManager.chromedriver().setup();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--disable-site-isolation-trials");
+		options.addArguments("--start-maximized");
+		driver = new ChromeDriver(options);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.get("https://testautomationpractice.blogspot.com/");
+		
+	}
+	
+	@AfterClass
+	public void afterclass() {
 		driver.close();
 		driver.quit();
+		
+	}
+	
+	/*@AfterMethod
+	public void reportflush() {
+		reports.flush();
+	}*/
+	
+	
+	@AfterSuite
+	public void teardown() {
 		reports.flush();
 	}
 }

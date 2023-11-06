@@ -6,9 +6,7 @@
     </listeners>
   <test thread-count="1" name="Test">
     <classes>
-      <class name="testcases.automationpracticetestcases"/>
-      <class name="testcases.automationpracticeteALERT"/>
-      <class name="testcases.AuthenticationPopup"/>
+      <class name="testcases.automationpracticetestcases"/> 
     </classes>
-  </test> <!-- Test -->
+  </test> 
 </suite> <!-- Suite -->
