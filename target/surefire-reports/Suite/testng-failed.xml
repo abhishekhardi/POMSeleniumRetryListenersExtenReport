@@ -9,8 +9,10 @@
       <class name="testcases.automationpracticetestcases">
         <methods>
           <include name="launchApp"/>
+          <include name="afterclass"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="beforeclass"/>
           <include name="newbrowserwindowbtn"/>
           <include name="extentreportsetup"/>
         </methods>

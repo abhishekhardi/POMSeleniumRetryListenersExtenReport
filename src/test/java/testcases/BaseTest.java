@@ -14,28 +14,16 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import utilities.Event;
+
 
 public class BaseTest {
-	protected ExtentReports reports = new ExtentReports();
-	protected ExtentSparkReporter spark = new ExtentSparkReporter("report.html");
-	public static ExtentTest test;
 	
 	public static WebDriver driver;
 	
 	@SuppressWarnings("deprecation")
 	@BeforeSuite
 	public void setup() {
-		spark.config().setTheme(Theme.DARK);
-		spark.config().setDocumentTitle("DocumentTitle");
-		spark.config().setReportName("ReportName");
-		spark.config().setTimeStampFormat("dd-MM-yyyy");
-		//System config
-		reports.setSystemInfo("OS", "Windows");
-		reports.setSystemInfo("Browser", "Chrome");
-		reports.setSystemInfo("URL", "https://testautomationpractice.blogspot.com/");
-		reports.setSystemInfo("Environment", "QA");
-		reports.attachReporter(spark);
+
 	}
 	
 	@BeforeTest
@@ -43,11 +31,9 @@ public class BaseTest {
 		
 		}
 	
-
-	
 	@BeforeMethod
 	public void launchApp(Method testmethod) {
-		test = reports.createTest(testmethod.getName());
+		
 	}
 	
 	@BeforeClass
@@ -69,14 +55,10 @@ public class BaseTest {
 		
 	}
 	
-	/*@AfterMethod
-	public void reportflush() {
-		reports.flush();
-	}*/
-	
+
 	
 	@AfterSuite
 	public void teardown() {
-		reports.flush();
+		
 	}
 }

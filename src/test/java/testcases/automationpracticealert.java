@@ -8,15 +8,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-
 import page.automationpracticepage;
-import utilities.Event;
 import utilities.RetryListener;
 
 public class automationpracticealert extends BaseTest{
 
 	automationpracticepage page = new automationpracticepage(driver);
-	public  Event event= new Event();
+
 	
 	@Test(retryAnalyzer = RetryListener.class)
 	public void handlealert() {

@@ -7,6 +7,13 @@
   <test thread-count="1" name="Test">
     <classes>
       <class name="testcases.automationpracticetestcases"/> 
+      <class name="testcases.automationpracticealert"/> 
+      <class name="testcases.Datepicker"/>
+      <class name="testcases.Doubleclick"/>
+      <class name="testcases.Iframe"/>
+      <class name="testcases.Selectcountry"/> 
+      <class name="testcases.WebTable"/>  
+      <class name="testcases.AuthenticationPopup"/>   
     </classes>
   </test> 
 </suite> <!-- Suite -->

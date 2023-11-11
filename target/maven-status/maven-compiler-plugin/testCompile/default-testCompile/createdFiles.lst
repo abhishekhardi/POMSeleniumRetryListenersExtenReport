@@ -1,6 +1,13 @@
+testcases\AuthenticationPopup.class
+testcases\automationpracticealert.class
+testcases\Selectcountry.class
+utilities\RetryListener.class
+testcases\Iframe.class
 utilities\Event.class
 utilities\Listeners.class
+testcases\Doubleclick.class
+testcases\Datepicker.class
+testcases\BaseTest.class
+testcases\WebTable.class
 page\automationpracticepage.class
 testcases\automationpracticetestcases.class
-testcases\BaseTest.class
-utilities\RetryListener.class
