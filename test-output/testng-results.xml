@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="15" failed="0" skipped="1">
+<testng-results retried="1" ignored="1" total="18" passed="14" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-11T12:51:33 IST" name="Suite" finished-at="2023-11-11T12:53:18 IST" duration-ms="105425">
+  <suite started-at="2023-11-11T14:24:05 IST" name="Suite" finished-at="2023-11-11T14:26:08 IST" duration-ms="122308">
     <groups>
     </groups>
-    <test started-at="2023-11-11T12:51:33 IST" name="Test" finished-at="2023-11-11T12:53:18 IST" duration-ms="105425">
+    <test started-at="2023-11-11T14:24:05 IST" name="Test" finished-at="2023-11-11T14:26:08 IST" duration-ms="122308">
       <class name="testcases.automationpracticealert">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.automationpracticealert@6c372fe6]" started-at="2023-11-11T12:51:44 IST" name="beforeclass" finished-at="2023-11-11T12:51:50 IST" duration-ms="6020" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.automationpracticealert@4218500f]" started-at="2023-11-11T14:24:21 IST" name="beforeclass" finished-at="2023-11-11T14:24:29 IST" duration-ms="8697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="handlealert()[pri:0, instance:testcases.automationpracticealert@6c372fe6]" started-at="2023-11-11T12:51:50 IST" name="handlealert" finished-at="2023-11-11T12:51:50 IST" duration-ms="371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlealert -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticealert@6c372fe6]" started-at="2023-11-11T12:51:50 IST" name="launchApp" finished-at="2023-11-11T12:51:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticealert@4218500f]" started-at="2023-11-11T14:24:29 IST" name="launchApp" finished-at="2023-11-11T14:24:29 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,17 +22,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.automationpracticealert@6c372fe6]" started-at="2023-11-11T12:51:50 IST" name="afterclass" finished-at="2023-11-11T12:51:50 IST" duration-ms="226" status="PASS">
+        <test-method signature="handlealert()[pri:0, instance:testcases.automationpracticealert@4218500f]" started-at="2023-11-11T14:24:29 IST" name="handlealert" finished-at="2023-11-11T14:24:30 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlealert -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.automationpracticealert@4218500f]" started-at="2023-11-11T14:24:30 IST" name="afterclass" finished-at="2023-11-11T14:24:30 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- testcases.automationpracticealert -->
       <class name="testcases.AuthenticationPopup">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.AuthenticationPopup@68f1b17f]" started-at="2023-11-11T12:53:02 IST" name="beforeclass" finished-at="2023-11-11T12:53:08 IST" duration-ms="6335" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.AuthenticationPopup@4566d049]" started-at="2023-11-11T14:25:50 IST" name="beforeclass" finished-at="2023-11-11T14:25:58 IST" duration-ms="7677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.AuthenticationPopup@68f1b17f]" started-at="2023-11-11T12:53:08 IST" name="launchApp" finished-at="2023-11-11T12:53:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.AuthenticationPopup@4566d049]" started-at="2023-11-11T14:25:58 IST" name="launchApp" finished-at="2023-11-11T14:25:58 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,21 +47,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="authpopup()[pri:0, instance:testcases.AuthenticationPopup@68f1b17f]" started-at="2023-11-11T12:53:08 IST" name="authpopup" finished-at="2023-11-11T12:53:18 IST" duration-ms="9421" status="PASS">
+        <test-method signature="authpopup()[pri:0, instance:testcases.AuthenticationPopup@4566d049]" started-at="2023-11-11T14:25:58 IST" name="authpopup" finished-at="2023-11-11T14:26:07 IST" duration-ms="9580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- authpopup -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.AuthenticationPopup@68f1b17f]" started-at="2023-11-11T12:53:18 IST" name="afterclass" finished-at="2023-11-11T12:53:18 IST" duration-ms="657" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.AuthenticationPopup@4566d049]" started-at="2023-11-11T14:26:07 IST" name="afterclass" finished-at="2023-11-11T14:26:08 IST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- testcases.AuthenticationPopup -->
       <class name="testcases.WebTable">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.WebTable@6e15fe2]" started-at="2023-11-11T12:52:50 IST" name="beforeclass" finished-at="2023-11-11T12:52:56 IST" duration-ms="6385" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.WebTable@3cc41abc]" started-at="2023-11-11T14:25:36 IST" name="beforeclass" finished-at="2023-11-11T14:25:43 IST" duration-ms="7758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.WebTable@6e15fe2]" started-at="2023-11-11T12:52:56 IST" name="launchApp" finished-at="2023-11-11T12:52:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.WebTable@3cc41abc]" started-at="2023-11-11T14:25:43 IST" name="launchApp" finished-at="2023-11-11T14:25:43 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,21 +72,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="webtable()[pri:0, instance:testcases.WebTable@6e15fe2]" started-at="2023-11-11T12:52:56 IST" name="webtable" finished-at="2023-11-11T12:53:02 IST" duration-ms="5774" status="PASS">
+        <test-method signature="webtable()[pri:0, instance:testcases.WebTable@3cc41abc]" started-at="2023-11-11T14:25:44 IST" name="webtable" finished-at="2023-11-11T14:25:50 IST" duration-ms="6108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webtable -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.WebTable@6e15fe2]" started-at="2023-11-11T12:53:02 IST" name="afterclass" finished-at="2023-11-11T12:53:02 IST" duration-ms="293" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.WebTable@3cc41abc]" started-at="2023-11-11T14:25:50 IST" name="afterclass" finished-at="2023-11-11T14:25:50 IST" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- testcases.WebTable -->
       <class name="testcases.Doubleclick">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.Doubleclick@2a3888c1]" started-at="2023-11-11T12:52:07 IST" name="beforeclass" finished-at="2023-11-11T12:52:14 IST" duration-ms="7063" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.Doubleclick@1b2c4efb]" started-at="2023-11-11T14:24:48 IST" name="beforeclass" finished-at="2023-11-11T14:24:57 IST" duration-ms="8473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.Doubleclick@2a3888c1]" started-at="2023-11-11T12:52:14 IST" name="launchApp" finished-at="2023-11-11T12:52:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.Doubleclick@1b2c4efb]" started-at="2023-11-11T14:24:57 IST" name="launchApp" finished-at="2023-11-11T14:24:57 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,25 +97,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="doubleclick()[pri:0, instance:testcases.Doubleclick@2a3888c1]" started-at="2023-11-11T12:52:14 IST" name="doubleclick" finished-at="2023-11-11T12:52:21 IST" duration-ms="6222" status="PASS">
+        <test-method signature="doubleclick()[pri:0, instance:testcases.Doubleclick@1b2c4efb]" started-at="2023-11-11T14:24:57 IST" name="doubleclick" finished-at="2023-11-11T14:25:03 IST" duration-ms="6431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doubleclick -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.Doubleclick@2a3888c1]" started-at="2023-11-11T12:52:21 IST" name="afterclass" finished-at="2023-11-11T12:52:21 IST" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.Doubleclick@1b2c4efb]" started-at="2023-11-11T14:25:03 IST" name="afterclass" finished-at="2023-11-11T14:25:04 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- testcases.Doubleclick -->
       <class name="testcases.Selectcountry">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.Selectcountry@14fa86ae]" started-at="2023-11-11T12:52:38 IST" name="beforeclass" finished-at="2023-11-11T12:52:45 IST" duration-ms="6473" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.Selectcountry@c2db68f]" started-at="2023-11-11T14:25:23 IST" name="beforeclass" finished-at="2023-11-11T14:25:31 IST" duration-ms="7549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="selectclass()[pri:0, instance:testcases.Selectcountry@14fa86ae]" started-at="2023-11-11T12:52:45 IST" name="selectclass" finished-at="2023-11-11T12:52:49 IST" duration-ms="4700" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectclass -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.Selectcountry@14fa86ae]" started-at="2023-11-11T12:52:45 IST" name="launchApp" finished-at="2023-11-11T12:52:45 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.Selectcountry@c2db68f]" started-at="2023-11-11T14:25:31 IST" name="launchApp" finished-at="2023-11-11T14:25:31 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,25 +122,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.Selectcountry@14fa86ae]" started-at="2023-11-11T12:52:49 IST" name="afterclass" finished-at="2023-11-11T12:52:50 IST" duration-ms="295" status="PASS">
+        <test-method signature="selectclass()[pri:0, instance:testcases.Selectcountry@c2db68f]" started-at="2023-11-11T14:25:31 IST" name="selectclass" finished-at="2023-11-11T14:25:35 IST" duration-ms="4783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectclass -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.Selectcountry@c2db68f]" started-at="2023-11-11T14:25:35 IST" name="afterclass" finished-at="2023-11-11T14:25:36 IST" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- testcases.Selectcountry -->
       <class name="testcases.automationpracticetestcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:33 IST" name="setup" finished-at="2023-11-11T12:51:33 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:05 IST" name="setup" finished-at="2023-11-11T14:24:05 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="extentreportsetup()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:33 IST" name="extentreportsetup" finished-at="2023-11-11T12:51:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="extentreportsetup()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:05 IST" name="extentreportsetup" finished-at="2023-11-11T14:24:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentreportsetup -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:33 IST" name="beforeclass" finished-at="2023-11-11T12:51:42 IST" duration-ms="8782" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:05 IST" name="beforeclass" finished-at="2023-11-11T14:24:18 IST" duration-ms="12081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="launchApp" finished-at="2023-11-11T12:51:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:18 IST" name="launchApp" finished-at="2023-11-11T14:24:18 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,11 +155,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="enteraddress()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="enteraddress" finished-at="2023-11-11T12:51:42 IST" duration-ms="295" status="PASS">
+        <test-method signature="enteraddress()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:18 IST" name="enteraddress" finished-at="2023-11-11T14:24:18 IST" duration-ms="585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enteraddress -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="launchApp" finished-at="2023-11-11T12:51:42 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:18 IST" name="launchApp" finished-at="2023-11-11T14:24:18 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,11 +170,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="enteremail()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="enteremail" finished-at="2023-11-11T12:51:42 IST" duration-ms="110" status="PASS">
+        <test-method signature="enteremail()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:18 IST" name="enteremail" finished-at="2023-11-11T14:24:19 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enteremail -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="launchApp" finished-at="2023-11-11T12:51:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:19 IST" name="launchApp" finished-at="2023-11-11T14:24:19 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -185,11 +185,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="enterphone()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="enterphone" finished-at="2023-11-11T12:51:42 IST" duration-ms="143" status="PASS">
+        <test-method signature="enterphone()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:19 IST" name="enterphone" finished-at="2023-11-11T14:24:19 IST" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterphone -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="launchApp" finished-at="2023-11-11T12:51:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:19 IST" name="launchApp" finished-at="2023-11-11T14:24:19 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="newbrowserwindowbtn()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="newbrowserwindowbtn" finished-at="2023-11-11T12:51:42 IST" duration-ms="76" status="SKIP">
+        <test-method signature="newbrowserwindowbtn()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:19 IST" name="newbrowserwindowbtn" finished-at="2023-11-11T14:24:19 IST" duration-ms="245" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[This is Skipped]]>
@@ -242,7 +242,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newbrowserwindowbtn -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="launchApp" finished-at="2023-11-11T12:51:42 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:19 IST" name="launchApp" finished-at="2023-11-11T14:24:19 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,11 +253,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="selectgender()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:42 IST" name="selectgender" finished-at="2023-11-11T12:51:43 IST" duration-ms="432" status="PASS">
+        <test-method signature="selectgender()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:19 IST" name="selectgender" finished-at="2023-11-11T14:24:19 IST" duration-ms="451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectgender -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:43 IST" name="launchApp" finished-at="2023-11-11T12:51:43 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:19 IST" name="launchApp" finished-at="2023-11-11T14:24:19 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,11 +268,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="selectmonday()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:43 IST" name="selectmonday" finished-at="2023-11-11T12:51:43 IST" duration-ms="177" status="PASS">
+        <test-method signature="selectmonday()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:19 IST" name="selectmonday" finished-at="2023-11-11T14:24:20 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectmonday -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:43 IST" name="launchApp" finished-at="2023-11-11T12:51:43 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:20 IST" name="launchApp" finished-at="2023-11-11T14:24:20 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,11 +283,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="selectsunday()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:43 IST" name="selectsunday" finished-at="2023-11-11T12:51:43 IST" duration-ms="89" status="PASS">
+        <test-method signature="selectsunday()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:20 IST" name="selectsunday" finished-at="2023-11-11T14:24:20 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectsunday -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:43 IST" name="launchApp" finished-at="2023-11-11T12:51:43 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:20 IST" name="launchApp" finished-at="2023-11-11T14:24:20 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -298,11 +298,112 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifynewbrowserwindowtext()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:43 IST" name="verifynewbrowserwindowtext" finished-at="2023-11-11T12:51:43 IST" duration-ms="52" status="PASS">
+        <test-method retried="true" signature="verifynewbrowserwindowtext()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:20 IST" name="verifynewbrowserwindowtext" finished-at="2023-11-11T14:24:20 IST" duration-ms="156" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element text is different expected [New Browser Windows] but found [New Browser Window]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element text is different expected [New Browser Windows] but found [New Browser Window]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testcases.automationpracticetestcases.verifynewbrowserwindowtext(automationpracticetestcases.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifynewbrowserwindowtext -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:43 IST" name="launchApp" finished-at="2023-11-11T12:51:43 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:20 IST" name="launchApp" finished-at="2023-11-11T14:24:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.automationpracticetestcases.verifynewbrowserwindowtext()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifynewbrowserwindowtext()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:20 IST" name="verifynewbrowserwindowtext" finished-at="2023-11-11T14:24:20 IST" duration-ms="77" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element text is different expected [New Browser Windows] but found [New Browser Window]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element text is different expected [New Browser Windows] but found [New Browser Window]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testcases.automationpracticetestcases.verifynewbrowserwindowtext(automationpracticetestcases.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynewbrowserwindowtext -->
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:20 IST" name="launchApp" finished-at="2023-11-11T14:24:20 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -313,25 +414,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifypage()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:43 IST" name="verifypage" finished-at="2023-11-11T12:51:43 IST" duration-ms="121" status="PASS">
+        <test-method signature="verifypage()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:20 IST" name="verifypage" finished-at="2023-11-11T14:24:20 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifypage -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:51:43 IST" name="afterclass" finished-at="2023-11-11T12:51:44 IST" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:24:20 IST" name="afterclass" finished-at="2023-11-11T14:24:21 IST" duration-ms="541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.automationpracticetestcases@78a773fd]" started-at="2023-11-11T12:53:19 IST" name="teardown" finished-at="2023-11-11T12:53:19 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.automationpracticetestcases@5cdd09b1]" started-at="2023-11-11T14:26:09 IST" name="teardown" finished-at="2023-11-11T14:26:09 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcases.automationpracticetestcases -->
       <class name="testcases.Iframe">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.Iframe@4167d97b]" started-at="2023-11-11T12:52:21 IST" name="beforeclass" finished-at="2023-11-11T12:52:27 IST" duration-ms="6296" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.Iframe@c35172e]" started-at="2023-11-11T14:25:04 IST" name="beforeclass" finished-at="2023-11-11T14:25:12 IST" duration-ms="8060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.Iframe@4167d97b]" started-at="2023-11-11T12:52:27 IST" name="launchApp" finished-at="2023-11-11T12:52:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.Iframe@c35172e]" started-at="2023-11-11T14:25:12 IST" name="launchApp" finished-at="2023-11-11T14:25:12 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -342,21 +443,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="iframe()[pri:0, instance:testcases.Iframe@4167d97b]" started-at="2023-11-11T12:52:27 IST" name="iframe" finished-at="2023-11-11T12:52:38 IST" duration-ms="10534" status="PASS">
+        <test-method signature="iframe()[pri:0, instance:testcases.Iframe@c35172e]" started-at="2023-11-11T14:25:12 IST" name="iframe" finished-at="2023-11-11T14:25:23 IST" duration-ms="10821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iframe -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.Iframe@4167d97b]" started-at="2023-11-11T12:52:38 IST" name="afterclass" finished-at="2023-11-11T12:52:38 IST" duration-ms="312" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.Iframe@c35172e]" started-at="2023-11-11T14:25:23 IST" name="afterclass" finished-at="2023-11-11T14:25:23 IST" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- testcases.Iframe -->
       <class name="testcases.Datepicker">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.Datepicker@58594a11]" started-at="2023-11-11T12:51:50 IST" name="beforeclass" finished-at="2023-11-11T12:51:57 IST" duration-ms="6320" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testcases.Datepicker@4bff64c2]" started-at="2023-11-11T14:24:30 IST" name="beforeclass" finished-at="2023-11-11T14:24:37 IST" duration-ms="7209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.Datepicker@58594a11]" started-at="2023-11-11T12:51:57 IST" name="launchApp" finished-at="2023-11-11T12:51:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.reflect.Method)[pri:0, instance:testcases.Datepicker@4bff64c2]" started-at="2023-11-11T14:24:37 IST" name="launchApp" finished-at="2023-11-11T14:24:37 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -367,11 +468,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="datePicker()[pri:0, instance:testcases.Datepicker@58594a11]" started-at="2023-11-11T12:51:57 IST" name="datePicker" finished-at="2023-11-11T12:52:07 IST" duration-ms="10521" status="PASS">
+        <test-method signature="datePicker()[pri:0, instance:testcases.Datepicker@4bff64c2]" started-at="2023-11-11T14:24:37 IST" name="datePicker" finished-at="2023-11-11T14:24:48 IST" duration-ms="10747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datePicker -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.Datepicker@58594a11]" started-at="2023-11-11T12:52:07 IST" name="afterclass" finished-at="2023-11-11T12:52:07 IST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testcases.Datepicker@4bff64c2]" started-at="2023-11-11T14:24:48 IST" name="afterclass" finished-at="2023-11-11T14:24:48 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->

@@ -15,6 +15,7 @@
           <include name="beforeclass"/>
           <include name="newbrowserwindowbtn"/>
           <include name="extentreportsetup"/>
+          <include name="verifynewbrowserwindowtext"/>
         </methods>
       </class> <!-- testcases.automationpracticetestcases -->
     </classes>

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">16 methods,  1 skipped,  15 passed</span>
+                    <span class="method-stats">17 methods, 1 failed,  2 skipped,  14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.automationpracticetestcases" class="method navigator-link" hash-for-method="verifynewbrowserwindowtext">verifynewbrowserwindowtext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -104,6 +118,20 @@
                       <span>
                         <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcases.automationpracticetestcases" class="method navigator-link" hash-for-method="newbrowserwindowbtn">newbrowserwindowbtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.automationpracticetestcases" class="method navigator-link" hash-for-method="verifynewbrowserwindowtext">verifynewbrowserwindowtext</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -177,11 +205,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.automationpracticetestcases" class="method navigator-link" hash-for-method="verifynewbrowserwindowtext">verifynewbrowserwindowtext</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcases.automationpracticetestcases" class="method navigator-link" hash-for-method="verifypage">verifypage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -202,6 +225,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.automationpracticetestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifynewbrowserwindowtext">
+                  </a> <!-- verifynewbrowserwindowtext -->
+                  <span class="method-name">verifynewbrowserwindowtext</span>
+                  <div class="stack-trace">java.lang.AssertionError: Element text is different expected [New Browser Windows] but found [New Browser Window]
+	at testcases.automationpracticetestcases.verifynewbrowserwindowtext(automationpracticetestcases.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -217,6 +260,18 @@
 	at testcases.automationpracticetestcases.newbrowserwindowbtn(automationpracticetestcases.java:57)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifynewbrowserwindowtext">
+                  </a> <!-- verifynewbrowserwindowtext -->
+                  <span class="method-name">verifynewbrowserwindowtext</span>
+                  <div class="stack-trace">java.lang.AssertionError: Element text is different expected [New Browser Windows] but found [New Browser Window]
+	at testcases.automationpracticetestcases.verifynewbrowserwindowtext(automationpracticetestcases.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -240,14 +295,44 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.Selectcountry</span>
+              <span class="class-name">testcases.Doubleclick</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="selectclass">
-                  </a> <!-- selectclass -->
-                  <span class="method-name">selectclass</span>
+                  <a name="doubleclick">
+                  </a> <!-- doubleclick -->
+                  <span class="method-name">doubleclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.AuthenticationPopup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="authpopup">
+                  </a> <!-- authpopup -->
+                  <span class="method-name">authpopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Datepicker</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="datePicker">
+                  </a> <!-- datePicker -->
+                  <span class="method-name">datePicker</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -302,16 +387,24 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifynewbrowserwindowtext">
-                  </a> <!-- verifynewbrowserwindowtext -->
-                  <span class="method-name">verifynewbrowserwindowtext</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifypage">
                   </a> <!-- verifypage -->
                   <span class="method-name">verifypage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.WebTable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="webtable">
+                  </a> <!-- webtable -->
+                  <span class="method-name">webtable</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -334,59 +427,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.Doubleclick</span>
+              <span class="class-name">testcases.Selectcountry</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="doubleclick">
-                  </a> <!-- doubleclick -->
-                  <span class="method-name">doubleclick</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.Datepicker</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="datePicker">
-                  </a> <!-- datePicker -->
-                  <span class="method-name">datePicker</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.AuthenticationPopup</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="authpopup">
-                  </a> <!-- authpopup -->
-                  <span class="method-name">authpopup</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.WebTable</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="webtable">
-                  </a> <!-- webtable -->
-                  <span class="method-name">webtable</span>
+                  <a name="selectclass">
+                  </a> <!-- selectclass -->
+                  <span class="method-name">selectclass</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -453,76 +501,80 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(16);
+data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'iframe')
 data.setCell(0, 2, 'testcases.Iframe')
-data.setCell(0, 3, 10534);
+data.setCell(0, 3, 10821);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'datePicker')
 data.setCell(1, 2, 'testcases.Datepicker')
-data.setCell(1, 3, 10521);
+data.setCell(1, 3, 10747);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'authpopup')
 data.setCell(2, 2, 'testcases.AuthenticationPopup')
-data.setCell(2, 3, 9421);
+data.setCell(2, 3, 9580);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'doubleclick')
 data.setCell(3, 2, 'testcases.Doubleclick')
-data.setCell(3, 3, 6222);
+data.setCell(3, 3, 6431);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'webtable')
 data.setCell(4, 2, 'testcases.WebTable')
-data.setCell(4, 3, 5774);
+data.setCell(4, 3, 6108);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'selectclass')
 data.setCell(5, 2, 'testcases.Selectcountry')
-data.setCell(5, 3, 4700);
+data.setCell(5, 3, 4783);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'selectgender')
+data.setCell(6, 1, 'enteraddress')
 data.setCell(6, 2, 'testcases.automationpracticetestcases')
-data.setCell(6, 3, 432);
+data.setCell(6, 3, 585);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'handlealert')
 data.setCell(7, 2, 'testcases.automationpracticealert')
-data.setCell(7, 3, 371);
+data.setCell(7, 3, 515);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'enteraddress')
+data.setCell(8, 1, 'selectgender')
 data.setCell(8, 2, 'testcases.automationpracticetestcases')
-data.setCell(8, 3, 295);
+data.setCell(8, 3, 451);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'selectmonday')
+data.setCell(9, 1, 'newbrowserwindowbtn')
 data.setCell(9, 2, 'testcases.automationpracticetestcases')
-data.setCell(9, 3, 177);
+data.setCell(9, 3, 245);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'enterphone')
+data.setCell(10, 1, 'verifypage')
 data.setCell(10, 2, 'testcases.automationpracticetestcases')
-data.setCell(10, 3, 143);
+data.setCell(10, 3, 174);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifypage')
+data.setCell(11, 1, 'verifynewbrowserwindowtext')
 data.setCell(11, 2, 'testcases.automationpracticetestcases')
-data.setCell(11, 3, 121);
+data.setCell(11, 3, 156);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'enteremail')
+data.setCell(12, 1, 'enterphone')
 data.setCell(12, 2, 'testcases.automationpracticetestcases')
-data.setCell(12, 3, 110);
+data.setCell(12, 3, 147);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'selectsunday')
+data.setCell(13, 1, 'enteremail')
 data.setCell(13, 2, 'testcases.automationpracticetestcases')
-data.setCell(13, 3, 89);
+data.setCell(13, 3, 141);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'newbrowserwindowbtn')
+data.setCell(14, 1, 'selectsunday')
 data.setCell(14, 2, 'testcases.automationpracticetestcases')
-data.setCell(14, 3, 76);
+data.setCell(14, 3, 133);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'verifynewbrowserwindowtext')
+data.setCell(15, 1, 'selectmonday')
 data.setCell(15, 2, 'testcases.automationpracticetestcases')
-data.setCell(15, 3, 52);
+data.setCell(15, 3, 88);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifynewbrowserwindowtext')
+data.setCell(16, 2, 'testcases.automationpracticetestcases')
+data.setCell(16, 3, 77);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -541,39 +593,6 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.Iframe</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">extentreportsetup</span>
-                <br/>
-                <span class="ignored-method-name">teardown</span>
-                <br/>
-                <span class="ignored-method-name">setup</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.Selectcountry</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">setup</span>
-                <br/>
-                <span class="ignored-method-name">teardown</span>
-                <br/>
-                <span class="ignored-method-name">extentreportsetup</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.automationpracticealert</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">extentreportsetup</span>
-                <br/>
-                <span class="ignored-method-name">setup</span>
-                <br/>
-                <span class="ignored-method-name">teardown</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">testcases.Doubleclick</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">teardown</span>
@@ -585,13 +604,13 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.Datepicker</span>
+              <span class="ignored-class-name">testcases.Iframe</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">teardown</span>
                 <br/>
-                <span class="ignored-method-name">setup</span>
-                <br/>
                 <span class="ignored-method-name">extentreportsetup</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -607,13 +626,46 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.WebTable</span>
+              <span class="ignored-class-name">testcases.Datepicker</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">extentreportsetup</span>
                 <br/>
                 <span class="ignored-method-name">teardown</span>
                 <br/>
                 <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.WebTable</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">extentreportsetup</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.automationpracticealert</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">extentreportsetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Selectcountry</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">extentreportsetup</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">teardown</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -632,227 +684,237 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">extentreportsetup</span>
-                <span class="method-start">37 ms</span>
+                <span class="method-start">62 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">69 ms</span>
+                <span class="method-start">95 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticetestcases.enteraddress())</span>
-                <span class="method-start">8869 ms</span>
+                <span class="method-start">12199 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">enteraddress</span>
-                <span class="method-start">8871 ms</span>
+                <span class="method-start">12379 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticetestcases.enteremail())</span>
-                <span class="method-start">9186 ms</span>
+                <span class="method-start">13005 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">enteremail</span>
-                <span class="method-start">9187 ms</span>
+                <span class="method-start">13008 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticetestcases.enterphone())</span>
-                <span class="method-start">9302 ms</span>
+                <span class="method-start">13160 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">enterphone</span>
-                <span class="method-start">9304 ms</span>
+                <span class="method-start">13165 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticetestcases.newbrowserwindowbtn())</span>
-                <span class="method-start">9450 ms</span>
+                <span class="method-start">13322 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">newbrowserwindowbtn</span>
-                <span class="method-start">9451 ms</span>
+                <span class="method-start">13328 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticetestcases.selectgender())</span>
-                <span class="method-start">9531 ms</span>
+                <span class="method-start">13586 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">selectgender</span>
-                <span class="method-start">9532 ms</span>
+                <span class="method-start">13621 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticetestcases.selectmonday())</span>
-                <span class="method-start">9969 ms</span>
+                <span class="method-start">14079 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">selectmonday</span>
-                <span class="method-start">9971 ms</span>
+                <span class="method-start">14083 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticetestcases.selectsunday())</span>
-                <span class="method-start">10153 ms</span>
+                <span class="method-start">14178 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">selectsunday</span>
-                <span class="method-start">10156 ms</span>
+                <span class="method-start">14198 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticetestcases.verifynewbrowserwindowtext())</span>
-                <span class="method-start">10249 ms</span>
+                <span class="method-start">14346 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifynewbrowserwindowtext</span>
-                <span class="method-start">10250 ms</span>
+                <span class="method-start">14352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp(public void testcases.automationpracticetestcases.verifynewbrowserwindowtext())</span>
+                <span class="method-start">14518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifynewbrowserwindowtext</span>
+                <span class="method-start">14523 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticetestcases.verifypage())</span>
-                <span class="method-start">10304 ms</span>
+                <span class="method-start">14617 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifypage</span>
-                <span class="method-start">10305 ms</span>
+                <span class="method-start">14619 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">10429 ms</span>
+                <span class="method-start">14798 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.automationpracticealert</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">10745 ms</span>
+                <span class="method-start">15339 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.automationpracticealert.handlealert())</span>
-                <span class="method-start">16766 ms</span>
+                <span class="method-start">24039 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">handlealert</span>
-                <span class="method-start">16766 ms</span>
+                <span class="method-start">24045 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">17141 ms</span>
+                <span class="method-start">24568 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.Datepicker</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">17367 ms</span>
+                <span class="method-start">24781 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.Datepicker.datePicker() throws java.lang.InterruptedException)</span>
-                <span class="method-start">23688 ms</span>
+                <span class="method-start">31992 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">datePicker</span>
-                <span class="method-start">23689 ms</span>
+                <span class="method-start">32001 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">34213 ms</span>
+                <span class="method-start">42760 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.Doubleclick</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">34446 ms</span>
+                <span class="method-start">43125 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.Doubleclick.doubleclick() throws java.lang.InterruptedException)</span>
-                <span class="method-start">41510 ms</span>
+                <span class="method-start">51599 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doubleclick</span>
-                <span class="method-start">41511 ms</span>
+                <span class="method-start">51601 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">47734 ms</span>
+                <span class="method-start">58046 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.Iframe</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">47952 ms</span>
+                <span class="method-start">58360 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.Iframe.iframe() throws java.lang.InterruptedException)</span>
-                <span class="method-start">54249 ms</span>
+                <span class="method-start">66425 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">iframe</span>
-                <span class="method-start">54250 ms</span>
+                <span class="method-start">66432 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">64786 ms</span>
+                <span class="method-start">77264 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.Selectcountry</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">65098 ms</span>
+                <span class="method-start">77675 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">selectclass</span>
-                <span class="method-start">71572 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.Selectcountry.selectclass() throws java.lang.InterruptedException)</span>
-                <span class="method-start">71572 ms</span>
+                <span class="method-start">85228 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectclass</span>
+                <span class="method-start">85236 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">76277 ms</span>
+                <span class="method-start">90029 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.WebTable</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">76572 ms</span>
+                <span class="method-start">90364 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.WebTable.webtable() throws java.lang.InterruptedException)</span>
-                <span class="method-start">82957 ms</span>
+                <span class="method-start">98126 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">webtable</span>
-                <span class="method-start">82958 ms</span>
+                <span class="method-start">98144 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">88734 ms</span>
+                <span class="method-start">104263 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.AuthenticationPopup</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">89027 ms</span>
+                <span class="method-start">104628 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(public void testcases.AuthenticationPopup.authpopup() throws java.lang.InterruptedException)</span>
-                <span class="method-start">95364 ms</span>
+                <span class="method-start">112307 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">authpopup</span>
-                <span class="method-start">95366 ms</span>
+                <span class="method-start">112317 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">104791 ms</span>
+                <span class="method-start">121915 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.automationpracticetestcases</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">106258 ms</span>
+                <span class="method-start">123205 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
