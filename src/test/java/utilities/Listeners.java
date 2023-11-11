@@ -59,7 +59,7 @@ public class Listeners extends BaseTest implements ITestListener{
 		System.out.println("Test was failure::"+result.getName());		
 		test.fail(MarkupHelper.createLabel("FAIL", ExtentColor.RED));	
 		test.log(Status.FAIL, result.getThrowable());	
-		// Capture screenshot
+		//Capture screenshot
         captureScreenshot(result);
         String path = "C:\\Users\\ABHISHEK\\Desktop\\Automation\\POMSeleniumRetryListenersExtenReportAllureReport\\screenshots\\"+result.getMethod().getMethodName()+".png";
 		test.addScreenCaptureFromPath(path);
