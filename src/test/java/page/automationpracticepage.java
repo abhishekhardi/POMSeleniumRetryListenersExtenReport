@@ -20,7 +20,7 @@ public class automationpracticepage {
 	public By phone = By.xpath("//input[@id='phone']");
 	public By address = By.xpath("//textarea[@id='textarea']");
 	public By gender = By.xpath("//input[@id='male']");
-	public By newbrowserwindowtext = By.xpath("//h2[contains(text(),'New Browser Window')]");
+	public By newbrowserwindowtext = By.xpath("//h2[contains(text(),'New Browser Windows')]");
 	public By newbrowserwindowbtn = By.xpath("//button[contains(text(),'New Browser Window')]");
 	public By sunday = By.xpath("//input[@id='sunday']");
 	public By monday = By.xpath("//input[@id='monday']");

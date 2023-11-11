@@ -1,18 +1,29 @@
 package utilities;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class Listeners implements ITestListener{
+import testcases.BaseTest;
 
+import io.qameta.allure.Allure;
+
+public class Listeners extends BaseTest implements ITestListener{
+	
 	private static ExtentReports reports = new ExtentReports();
 	private static ExtentSparkReporter spark = new ExtentSparkReporter("report.html");
 	protected static ExtentTest test;
@@ -46,7 +57,14 @@ public class Listeners implements ITestListener{
 	@Override		
 	public void onTestFailure(ITestResult result) {					
 		System.out.println("Test was failure::"+result.getName());		
-		test.pass(MarkupHelper.createLabel("FAIL", ExtentColor.RED));		
+		test.fail(MarkupHelper.createLabel("FAIL", ExtentColor.RED));	
+		test.log(Status.FAIL, result.getThrowable());	
+		// Capture screenshot
+        captureScreenshot(result);
+        String path = "C:\\Users\\ABHISHEK\\Desktop\\Automation\\POMSeleniumRetryListenersExtenReportAllureReport\\screenshots\\"+result.getMethod().getMethodName()+".png";
+		test.addScreenCaptureFromPath(path);
+		Allure.addAttachment("Screenshot on failure",path);
+		
 	}
 
 	@Override		
@@ -64,12 +82,20 @@ public class Listeners implements ITestListener{
 	@Override		
 	public void onFinish(ITestContext result) {		
 		reports.flush();
-		// TODO Auto-generated method stub						
 	}		
 
 	@Override		
-	public void onStart(ITestContext result) {					
-		// TODO Auto-generated method stub				
-
+	public void onStart(ITestContext result) {							
 	}		
+	
+	public void captureScreenshot(ITestResult result) {
+		File srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(srcfile, new File("C:\\Users\\ABHISHEK\\Desktop\\Automation\\POMSeleniumRetryListenersExtenReportAllureReport\\screenshots\\"+result.getMethod().getMethodName()+".png"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+ 
 }
