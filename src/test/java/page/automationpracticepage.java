@@ -55,7 +55,9 @@ public class automationpracticepage {
 	
 	
 	
-	
+	//Mousehover
+	public By mousehoverele = By.xpath("//button[@id='toolTipButton']");
+	public By tooltip = By.xpath("//div[@class='tooltip-inner']");
 	
 	
 	
